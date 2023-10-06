@@ -1,0 +1,23 @@
+{
+  "name": "ui-cypress",
+  "version": "1.0.0",
+  "description": "Basic UI automation test with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run:electron:headless": "cypress run",
+    "cy:run:chrome:headless": "cypress run --browser chrome",
+    "cy:run:firefox:headless": "cypress run --browser firefox",
+    "cy:run:edge:headless": "cypress run --browser edge",
+    "cy:run:electron:headed": "cypress run --headed",
+    "cy:run:chrome:headed": "cypress run --browser chrome --headed",
+    "cy:run:firefox:headed": "cypress run --browser firefox --headed",
+    "cy:run:edge:headed": "cypress run --browser edge --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
+}
