@@ -8,8 +8,8 @@ module.exports = defineConfig({
     },
   },
   video: false,
-  defaultCommandTimeout: 60000,
-  responseTimeout: 60000,
-  requestTimeout: 60000,
-  pageLoadTimeout: 60000,
+  defaultCommandTimeout: 30000,
+  responseTimeout: 30000,
+  requestTimeout: 30000,
+  pageLoadTimeout: 30000,
 });
